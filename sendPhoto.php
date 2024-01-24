@@ -6,11 +6,7 @@ $actionsResponse = getActionsApiCall();
 
 $actions = json_decode($actionsResponse, true);
 
-$photoPath = 'test';
-$actionId = 1;
-
-var_dump($photoPath);
-var_dump($actionId);
-exit();
+$photoPath = $argv[1];
+$actionId = $argv[2];
 
 sendPhotoApiCall($photoPath, $actionId);

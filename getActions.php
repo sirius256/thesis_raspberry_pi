@@ -16,8 +16,8 @@ if (isset($actions['isError']) && $actions['isError'] === 0) {
             } else {
                 $photoExtension = 'jpeg';
             }
-
-            $output = shell_exec('make_photo.sh ' . $photoExtension . ' ' . $action['action_id']);
+            
+            $output = shell_exec('/home/oleg/Desktop/thesis_raspberry_pi/make_photo.sh ' . $photoExtension . ' ' . $action['action_id']);
             echo $output;
         }
     }
