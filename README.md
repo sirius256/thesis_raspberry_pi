@@ -25,4 +25,5 @@ https://github.com/sirius256/thesis
 - sudo apt-get install php -y
 - Втановити розширення до PHP, щоб могти робити запити до апі
 - sudo apt install php8.2 php8.2-cli php8.2-{bz2,curl,mbstring,intl}
-- 
+- Робимо все по інструкції, щоб включити камеру
+- https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2
