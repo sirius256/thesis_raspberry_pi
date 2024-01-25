@@ -31,4 +31,8 @@ https://github.com/sirius256/thesis
 - cd thesis_raspberry_pi
 - chmod +x make_photo.sh
 - chmod +x main.sh
+- sudo crontab -e 
+- Вставити там код:
+- @reboot . /home/oleg/Desktop/thesis_raspberry_pi/main.sh &
+- Перезагрузити
   
